@@ -9,6 +9,7 @@
 3. Login to the dashboard with the following link:
    http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 4. Enter the token created in step 1.
-5. Port forwarding - 'kubectl port-forward service/web-node-app 8001:8001'
-6. Access the calculator app at http://localhost:8001
-7. Log in with either user1/user2 & password1/password2
+5. crtl+c the kubectl proxy terminal
+6. Port forwarding - 'kubectl port-forward service/web-node-app 8001:8001'
+7. Access the calculator app at http://localhost:8001
+8. Log in with either user1/user2 & password1/password2
